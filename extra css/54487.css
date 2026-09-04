@@ -1,0 +1,348 @@
+:root {
+    --littleguys: url("https://file.garden/X1htvgJ0DEp_tp-Z/bannerframe.png");
+    --banner: url("https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/headertitle.png");
+}
+
+/* Top */
+
+header .umcontainer {
+    display: none;
+}
+
+nav {
+    padding-top: 0;
+    background-color: #5a5a5a;
+}
+
+.heart {
+    background-image: url("https://homestuck.com/logosAndAds/candycorn.gif") !important;
+    image-rendering: auto;
+}
+
+#main {
+background-color: transparent;
+padding: 0;
+width: 950px;
+}
+
+/* Content */
+
+#command {
+padding: 13px 0;
+}
+
+#container {
+background: #c6c6c6;
+padding: 7px 0;
+}
+
+#slide {
+margin: 0 auto 20px;
+}
+
+#content {
+font-size: 12px;
+}
+
+#content img {
+margin-bottom: -2.5px !important;
+}
+
+#links {
+margin-top: 20px;
+margin-bottom: -9px;
+}
+
+#foot br:last-child {
+display: none;
+}
+
+#foot {
+padding-bottom: 14px;
+}
+
+#gamelinks a {
+color: #0000FF
+}
+
+/* Info */
+
+#info {
+padding: 20px 0;
+background: #535353;
+
+display: grid;
+grid-template-columns: 262px 468px 1fr;
+grid-template-rows: repeat(3, auto);
+grid-column-gap: 12px;
+grid-row-gap: 0px;
+}
+
+#infobox { grid-area: 1 / 2 / 2 / 3; }
+#commentbox { grid-area: 2 / 2 / 3 / 3; }
+#um4container { grid-area: 3 / 2 / 4 / 4; }
+#newPages { grid-area: 1 / 1 / 4 / 2; }
+#customAds { grid-area: 1 / 3 / 3 / 4; }
+
+#infobox {
+background-color: #efefef;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+}
+
+#infobox .spoiler > div:first-child {
+display: none;
+}
+
+#infobox .spoiler > div:last-child {
+display: block;
+background-color: #efefef;
+margin: 0;
+padding: 10px 10px 0;
+line-height: 1.5em;
+}
+
+#infobox .spoiler > div tr:first-child td:first-child, #latestpages {
+display: none;
+}
+
+#infobox span.major {
+display: block;
+text-align: center;
+color: #ffb529;
+text-shadow:
+0.11em 0.11em 0 black,
+0.05em 0.05em 0 black;
+font-size: 40px !important;
+line-height: 1.2em;
+
+padding-bottom: 5px;
+margin-bottom: -10px;
+border-bottom: 1px #0004 solid;
+}
+
+#infobox button {
+float: right;
+margin: 5px;
+margin-top: 15px;
+}
+
+html:not(.p1) #info {
+    padding-top: 108px;
+    position: relative;
+}
+
+html:not(.p1) #info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 108px;
+
+    background-image: var(--littleguys);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#commentbox {
+background-color: #efefef;
+padding: 0 0 10px;
+}
+
+#commentbox .spoiler > div:last-child {
+margin: 10px;
+}
+
+/* Custom */
+
+#newPages {
+background-color: #c6c6c6;
+border: solid #efefef;
+border-width: 8px 8px 8px 0;
+}
+
+#customAds {
+background-color: #c6c6c6;
+border: solid #efefef;
+border-width: 8px 0 8px 8px;
+}
+
+@font-face {
+    font-family: 'Fontstuck extended';
+    src: url('https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/Alchemy/courierstuck.ttf');
+}
+
+#newPages {
+text-align: left;
+padding: 4px;
+
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+}
+
+.customTitle {
+    --color: #24ff49;
+    font-weight: normal;
+    font-family: 'Fontstuck extended';
+
+    font-size: 46px;
+    text-align: center;
+    text-shadow:
+    0.05em 0.05em 0 var(--color);
+    text-transform: uppercase;
+    letter-spacing: -0.075em;
+    margin-top: -10px;
+}
+
+#viewAllPages {
+display: block;
+text-align: center;
+font-size: 16px;
+text-transform: uppercase;
+padding: 5px;
+}
+
+#info > iframe {
+height: 90px;
+position: absolute;
+top: 8px;
+left: calc((950px - 728px)/2);
+}
+
+#customAds div:last-child {
+width: 160px;
+height: 612px;
+margin: 0 auto 10px;
+}
+
+/* Page 1 */
+
+.p1 #container {
+    width: 676px;
+    margin-left: auto;
+}
+
+.p1 #slide {
+    width: unset;
+    border-left: 8px #c6c6c6 solid;
+}
+
+.p1 #info {
+    padding: 95px 0 20px;
+    background: #535353;
+
+    display: grid;
+    grid-template-columns: 468px auto;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 12px;
+    grid-row-gap: 0px;
+}
+
+.p1 #main {
+    position: relative
+}
+
+.p1 #infobox { grid-area: 1 / 1 / 2 / 2; }
+.p1 #commentbox { grid-area: 2 / 1 / 3 / 2; }
+.p1 #um4container { grid-area: 3 / 1 / 4 / 3; }
+.p1 #customAds { grid-area: 1 / 2 / 3 / 3; }
+
+.p1 #newPages {
+    position: absolute;
+    top: 196px;
+    left: 0;
+    bottom: 130px;
+    width: 250px;
+}
+
+.p1 #main:before {
+    content: "";
+    display: block;
+    background: #efefef;
+    border-bottom: solid 10px #c6c6c6;
+    height: 170px;
+
+    background-image: var(--banner), var(--littleguys);
+    background-repeat: no-repeat;
+    background-position: bottom, top;
+}
+
+.p1 #info > iframe {
+    position: relative;
+    grid-area: 1 / 1 / 2 / 2;
+    left: 0;
+    top: -90px;
+    transform-origin: top left;
+    transform: scale(0.929)
+}
+
+.p1 #slide {
+    margin-bottom: 8px;
+}
+
+#commentbox table img {
+max-width: 100%;
+}
+
+#commentbox .cellicon {
+width: 50px;
+height: 50px;
+max-width: 50px;
+}
+
+#commentbox table {
+margin-left: -10px;
+margin-right: -10px;
+}
+
+#commentbox .cellicon {
+margin-right: 5px;
+margin-left: 0;
+}
+
+#commentbox table td:last-child {
+position: relative;
+padding-right: 45px;
+}
+
+#commentbox .gear {
+position: absolute;
+right: 0;
+top: 0;
+}
+
+#commentbox .reply {
+position: absolute;
+right: 20px;
+top: 0;
+}
+
+#commentbox .rate {
+position: absolute;
+right: 0;
+top: 18px;
+}
+
+#commentbox .spoiler > div:first-child input {
+--color: magenta;
+
+font-weight: normal;
+font-family: 'Fontstuck extended';
+font-size: 46px !important;;
+text-align: center;
+text-shadow: 0.05em 0.05em 0 var(--color);
+
+border: none;
+background: none;
+}
+
+#commentbox .spoiler > div:first-child input:hover {
+color: magenta;
+--color: black;
+}
+
+#commentbox .spoiler.closed {
+height: 400px;
+}

@@ -1,0 +1,136 @@
+@import url("assets://mspfa/SBURB.exe/extra css/54487.css");
+
+body, #info {
+    background-color: white !important;
+}
+
+body {
+    background-image: url(assets://mspfa/SBURB.exe/img/ryan-north/sky.png);
+    background-repeat: repeat-x;
+}
+
+#container, #slide, #main, nav {
+    background-color: transparent !important;
+}
+
+body::before {
+    content: url(assets://mspfa/SBURB.exe/img/ryan-north/pteranodon.png);
+    position: absolute;
+    right: 12% !important;
+    top: 40px !important;
+    z-index: -1 !important;
+}
+
+body::after {
+    content: url(assets://mspfa/SBURB.exe/img/ryan-north/rhamphorhynchus.png);
+    position: absolute;
+    right: 30%;
+    top: 16px;
+    z-index: -1;
+}
+
+#main {
+width: 735px;
+position: relative;
+image-rendering: auto;
+}
+
+#info {
+grid-template-columns: 0 1fr 170px;
+}
+
+#newPages {
+display: none;
+}
+
+nav {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 340px;
+    padding-top: 5px;
+    height: 42px;
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white !important;
+    text-transform: lowercase;
+}
+
+.dropdown-content {
+    background-color: #448fff;
+}
+
+.heart {
+    background-image: radial-gradient(circle, rgba(48,109,200,1) 35%, rgba(0,0,255,0) 1%) !important;
+    margin: 0px !important;;
+}
+
+nav::before {
+    content: url(https://qwantz.com/logo5.png);
+    position: absolute;
+    top: 50px;
+    left: 275px;
+}
+
+#command {
+opacity: 0;
+height: 10px;
+}
+
+
+#links div::before { content: none;  }
+#links a, #goback { font-size: 0 }
+#links a::after, #goback::after {
+content: "";
+background-image: url(https://qwantz.com/rightarrow.png);
+width: 70px;
+height: 70px;
+position: absolute;
+top: 310px;
+right: 0px;
+}
+#goback::after {
+left: 0px;
+background-image: url(https://qwantz.com/leftarrow.png);
+}
+#links a:hover::after, #goback:hover::after {
+background-position: 0 -70px;
+}
+#links, .footlinks {
+font-size: 0px !important;;
+}
+
+#infobox {
+border: 3px #00aa00 solid;
+background: white;
+margin-bottom: 10px;
+}
+#infobox span.major {
+background: #42C700;
+text-shadow: none;
+color: white;
+padding-top: 5px;
+padding-bottom: 5px;
+border: none;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px !important;
+margin: -4px;
+text-transform: uppercase;
+}
+
+#info {
+padding-top: 0px !important;
+}
+
+
+#info > iframe {
+top: -96px;
+left: 0px;
+}
+
+#info::before {
+display: none;
+}
