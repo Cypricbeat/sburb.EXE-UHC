@@ -9,7 +9,7 @@ also i miss-read the title for ages and thought it was SBURB.exe for some reason
 
 ## How to install sburb.EXE
 
-you will NEED the [Unoffical homestuck collection](https://github.com/homestuck/unofficial-homestuck-collection).
+you will NEED the [Unoffical homestuck collection](https://github.com/GiovanH/unofficial-homestuck-collection).
 
 1. Download the zip file from the release section.
    
